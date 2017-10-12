@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Closure</title>
 </head>
+
 <body>
   <h2>Check console to see the madness!</h2>
 
@@ -13,22 +15,22 @@
       color: "gray",
       age: 15,
 
-      printInfo: function() {
+      printInfo: function () {
         console.log("inside printInfo()");
 
-        // What will this print?
+        // What will this print? cat object
         console.log(this);
 
-        // What will this print?
+        // What will this print? Cat details
         console.log("Name:", this.name, "Color:", this.color, "Age:", this.age);
 
-        var nestedFunction = function() {
+        var nestedFunction = function () {
           console.log("inside nestedFunction()");
 
-          // What will this print?
+          // What will this print? inside nestedFunction() string
           console.log(this);
 
-          // What will this print?
+          // What will this print? print all
           console.log("Name:", this.name, "Color:", this.color, "Age:", this.age);
         };
 
@@ -39,7 +41,8 @@
     // calls the printInfo function. Which subsequently calls the nestedFunction()
     cat.printInfo();
 
-</script>
+  </script>
 
 </body>
+
 </html>

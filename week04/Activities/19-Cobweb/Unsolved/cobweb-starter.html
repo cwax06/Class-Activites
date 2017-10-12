@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>New This</title>
 
   <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
 
   <h1>Open the console to see the action!</h1>
 
   <script>
-
-  // Here we are given a cob-web of items. Let's dig in and grab the items we need.
-  var theCobWeb = {
-    biggestWeb: {
-      item: "comb",
-      biggerWeb: {
-        items: ["glasses", "paperclip", "bubblegum"],
-        smallerWeb: {
-          item: "toothbrush",
-          tinyWeb: {
-            items: ["toenails", "lint", "wrapper", "homework"]
+    // Here we are given a cob-web of items. Let's dig in and grab the items we need.
+    var theCobWeb = {
+      biggestWeb: {
+        item: "comb",
+        biggerWeb: {
+          items: ["glasses", "paperclip", "bubblegum"],
+          smallerWeb: {
+            item: "toothbrush",
+            tinyWeb: {
+              items: ["toenails", "lint", "wrapper", "homework"]
+            }
           }
+        },
+        otherBigWeb: {
+          item: "headphones"
         }
-      },
-      otherBigWeb: {
-        item: "headphones"
       }
-    }
+    };
+
+
+    console.log("I found my " theCobWeb.biggestWeb.biggerWeb.items[0])
   };
 
-// Create the code necessary to print each of the following lines using the object above:
-// "I found my glasses!"
+    glasses();
+
+
+    var biggestWeb = theCobWebl.biggestWeb;
+    var biggerWeb = biggestWeb.biggerWeb;
+    var items = biggerWeb.items;
+    var myGlasses = items[0];
+
+    console.log(foundString)
+
+  // Create the code necessary to print each of the following lines using the object above:
+  // "I found my glasses!"
 // "I found my toothbrush!"
 // "I found my headphones!"
 // "I found my homework!"
@@ -50,8 +67,8 @@
 //    toenails it should give back tinyWeb
 //    headphones it should give back otherBigWeb
 // HINT: you should use recursion
-
-</script>
+  </script>
 
 </body>
+
 </html>

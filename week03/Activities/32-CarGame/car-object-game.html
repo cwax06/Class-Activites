@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Object</title>
+</head>
+
+<body>
+
+    <h1>Car Adventures!</h1>
+
+    <h2>Type "h" to honk, "d" to drive to work, "w" to drive around the world, or "t" to get a tuneup.</h2>
+
+    <h2>See console for car stats.</h2>
+
+    <h3>Bonus: Type "p" to Play some Tunes!</h3>
+
+    <script>
+        document.onkeyup = function (event) {
+            var keyPressed = event.key;
+            if (keyPressed === 'h') {
+                car.honk();
+            } else if (keyPressed === 'd') {
+                car.driveToWork();
+            } else if (keyPressed === 'w') {
+                car.driveAroundWorld();
+            } else if (keyPressed === 't') {
+                car.getTuneUp();
+            } else if (keyPressed === 'p') {
+                car.playTunes();
+            }
+
+
+        }
+
+        var car = {
+            make: "Honda",
+            model: "Fit",
+            color: "Blue Raspberry",
+            mileage: 3000,
+            isWorking: true,
+
+            driveToWork: function () {
+
+                alert("Old Mileage: " + this.mileage);
+
+                this.mileage = this.mileage + 8;
+
+                alert("New mileage: " + this.mileage);
+            },
+
+            driveAroundWorld: function () {
+
+                alert("Old Mileage: " + this.mileage);
+
+                this.mileage = this.mileage + 24000;
+
+                alert("New Mileage: " + this.mileage);
+                alert("Car needs a tuneup!");
+
+                this.isWorking = false;
+            },
+
+            getTuneUp: function () {
+                alert("Blinker fluid was low - $1000");
+                alert("Car is now ready to go!")
+                this.isWorking = true;
+            },
+
+            honk: function () {
+                alert("Honk! Honk!");
+            },
+
+            playTunes: function () {
+                alert("Blairing the Subs!");
+                alert("Car is Bouncing");
+                alert("Siren! Siren! Siren!");
+                alert("Noise Limit Citation");
+            },
+
+            printStats: function () {
+                console.log('Make: ' + this.make);
+                console.log('Model: ' + this.model);
+                console.log('Color ' + this.color);
+                console.log('Mileage: ' + this.milage)
+            }
+
+        };
+    </script>
+
+
+</body>
+
+</html>

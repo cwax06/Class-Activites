@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JavaScript Content!</title>
 </head>
+
 <body>
 
   <h1>Drink Selection!</h1>
@@ -13,7 +15,6 @@
   <div id="drink-options"></div>
 
   <script type="text/javascript">
-
     // Array holds all of the drinks available
     var drinkList = [
       "Coffee: $5",
@@ -30,6 +31,8 @@
     // 1. Create code that "grabs" the div with the matching id (#drink-options);
     // ...
 
+    var targetDiv = document.getElementById("drink-options");
+
 
     // ...
 
@@ -38,10 +41,18 @@
     // HINT: You will need to use each of the following methods: createElement, innerHTML, appendChild
     // ...
 
+    for (var j = 0; j < drinkList.length; j++) {
+
+      var newDiv = document.createElement("div");
+
+      newDiv.innerHTML = drinkList[j];
+
+      targetDiv.appendChild(newDiv);
+    }
 
     // ...
-
   </script>
 
 </body>
+
 </html>

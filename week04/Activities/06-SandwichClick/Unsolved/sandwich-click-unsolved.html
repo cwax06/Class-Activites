@@ -18,17 +18,21 @@
   <h3 id="roastbeef">Roast Beef</h3>
 
   <script type="text/javascript">
-
     // This document.ready isn't necessary in this example... but is needed in cases where the HTML is complex.
     // This code makes sure that the JavaScript doesn't get run until the HTML is finished loading
     // It's useful to become familiar with now.
 
-    $(document).ready(function() {
+    $(document).ready(function () {
 
       // VARIABLES
       // ====================================================================
       // Here we create variables for tracking the number of sandwiches eaten
       // ...
+
+      var pbjCounter = 0;
+      var grilledcheeseCounter = 0;
+      var roastbeefCounter = 0;
+
 
 
       // ...
@@ -40,11 +44,29 @@
       // ...
 
 
+
+      $("#pbj").on("click", function () {
+        pbjCounter = pbjCounter + 1
+        alert("PBJ is [insert snarcky comment]");
+        alert(pbjCounter);
+
+      });
+
+      $("#grilledcheese").on("click", function () {
+        grilledcheeseCounter = grilledcheeseCounter + 1
+        alert("Grilled Cheese is [insert snarcky comment]!");
+        alert(grilledcheeseCounter);
+      });
+
+      $("#roastbeef").on("click", function () {
+        roastbeefCounter = roastbeefCounter + 1
+        alert("Roast Beef is [insert snarcky comment]!");
+        alert(roastbeefCounter);
+      });
       // ...
 
     });
-
-</script>
+  </script>
 
 </body>
 

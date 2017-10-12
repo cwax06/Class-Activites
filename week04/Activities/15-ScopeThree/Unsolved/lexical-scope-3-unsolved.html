@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Lexical Scope</title>
 </head>
+
 <body>
 
   <h2>Let's Talk About Scope!</h2>
 
   <script type="text/javascript">
-
     // Example One: Global Scope
     // -------------------------------------------
     var a = 1;
@@ -18,7 +19,7 @@
     }
 
     // What will get alerted?
-    one();
+    one(); // One: 1
 
     // Example Two: Local Scope
     // -------------------------------------------
@@ -32,7 +33,7 @@
     }
 
     // What will get alerted?
-    twotop();
+    twotop(); // Two: 1
 
     // Example Three: Local Scope
     // -------------------------------------------
@@ -44,7 +45,7 @@
     }
 
     // What will get alerted?
-    three();
+    three(); // Three: 3
 
     // Example Four: Local Scope
     // -------------------------------------------
@@ -67,8 +68,8 @@
     }
 
     // What will get alerted?
-    first();
-
+    first(); // Four: 3 2 5
   </script>
 </body>
+
 </html>

@@ -14,12 +14,21 @@
   </div>
 
   <script type="text/javascript">
-
     // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
     var computerChoices = ["r", "p", "s"];
+    var userWins = ["rs", "sp", "pr"];
+    var win = 0
+    var ties = 0
+    var loss = 0
 
     // This function is run whenever the user presses a key.
-    document.onkeyup = function(event) {
+    document.onkeyup = function (event) {
+
+      // Validate Input
+
+
+      // User Loses
+
 
       // Determines which key was pressed.
       var userGuess = event.key;
@@ -27,14 +36,33 @@
       // Randomly chooses a choice from the options array. This is the Computer's guess.
       var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
+      var combined = userGuess + computerGuess
       // Alerts the key the user pressed (userGuess).
       alert("User guess: " + userGuess);
 
       // Alerts the Computer's guess.
       alert("Computer guess: " + computerGuess);
 
-    };
+      // Tie Scenario.
+      if (userGuess === computerGuess) {
+        ties = ties + 1
+      }
+      // Win Scenario.
+      else {
+        for (var i = 0; i < userWins.length; i++) {
+          if (combined === userWins[i]) {
+            win = win + 1
+          }
+          // Loss Scenario.
+          else {
+            for (var i = 0; i < )
+      }
+        }
+
+      };
   </script>
+
+
 
 </body>
 

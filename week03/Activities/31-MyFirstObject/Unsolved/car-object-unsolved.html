@@ -1,67 +1,96 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>My First Object</title>
-  </head>
-  <body>
 
-    <script>
+<head>
+  <meta charset="UTF-8">
+  <title>My First Object</title>
+</head>
 
-      var car = {
-        make: "Honda",
-        model: "Fit",
-        color: "Blue Raspberry",
-        mileage: 3000,
-        isWorking: true,
+<body>
 
-        driveToWork: function() {
+  <script>
+    var car = {
+      make: "Honda",
+      model: "Fit",
+      color: "Blue Raspberry",
+      mileage: 3000,
+      isWorking: true,
 
-          alert("Old Mileage: " + this.mileage);
+      driveToWork: function () {
 
-          this.mileage = this.mileage + 8;
+        alert("Old Mileage: " + this.mileage);
 
-          alert("New mileage: " + this.mileage);
+        this.mileage = this.mileage + 8;
+
+        alert("New mileage: " + this.mileage);
+      },
+
+      driveAroundWorld: function () {
+
+        alert("Old Mileage: " + this.mileage);
+
+        this.mileage = this.mileage + 24000;
+
+        alert("New Mileage: " + this.mileage);
+        alert("Car needs a tuneup!");
+
+        this.isWorking = false;
+      },
+
+      getTuneUp: function () {
+        alert("Car is ready to go!");
+        this.isWorking = true;
+      },
+
+      honk: function () {
+        alert("Honk! Honk!");
+      },
+
+      playTunes: function () {
+
+        prompt("Play Tunes?")() {
+          rocking
         },
 
-        driveAroundWorld: function() {
+        rocking: function () {
 
-          alert("Old Mileage: " + this.mileage);
-
-          this.mileage = this.mileage + 24000;
-
-          alert("New Mileage: " + this.mileage);
-          alert("Car needs a tuneup!");
-
-          this.isWorking = false;
-        },
-
-        getTuneUp: function() {
-          alert("Car is ready to go!");
-          this.isWorking = true;
-        },
-
-        honk: function() {
-          alert("Honk! Honk!");
+          alert("Blairing the Subs!");
+          alert("Car is Bouncing");
+          alert("Siren! Siren! Siren!");
+          alert("Noise Limit Citation");
         }
-      };
+      }
+
+    };
 
 
-      // How would we log...
+    // How would we log...
 
-      // The car's make?
+    // The car's make?
+    console.log(car.make)
 
-      // The car's model?
+    // The car's model?
+    console.log(car.model)
 
-      // The car's mileage?
+    // The car's mileage?
+    console.log(car.mileage)
 
-      // How would we run the car's driveToWork function?
+    // How would we run the car's driveToWork function?
+    car.driveToWork();
 
-      // How would we run the car's driveAroundWorld function?
+    // How would we run the car's driveAroundWorld function?
+    car.driveAroundWorld();
 
-      // How would we run the getTuneUp function?
+    // How would we run the getTuneUp function?
+    car.getTuneUp();
 
-    </script>
-    
-  </body>
+    // Honk the horn
+    car.honk();
+
+    // Play tunes
+    car.playTunes();
+  </script>
+
+</body>
+
 </html>
