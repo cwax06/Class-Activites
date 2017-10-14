@@ -2,7 +2,7 @@
 // Students: follow the instructions below:
 
 // TODO: Put links to our images in this image array.
-var images = [];
+var images = [images /];
 
 // Variable showImage will hold the setInterval when we start the slideshow
 var showImage;
