@@ -13,33 +13,33 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
     //
-    $("#cat-button").on("click", function() {
+    $("#cat-button").on("click", function () {
 
-      //
-      var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=cats";
+      // sets a cat search on giphy as a variable for use later
+      var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=fails";
 
-      //
+      // method which pulls a random image from giphy
       $.ajax({
         url: queryURL,
         method: "GET"
       })
 
-      //
-      .done(function(response) {
+        // executes the function upon clicking the button
+        .done(function (response) {
 
-        //
-        var imageUrl = response.data.image_original_url;
+          // pulls individual image from api
+          var imageUrl = response.data.image_original_url;
 
-        //
-        var catImage = $("<img>");
+          // image tag to add to html
+          var catImage = $("<img>");
 
-        //
-        catImage.attr("src", imageUrl);
-        catImage.attr("alt", "cat image");
+          // prints image to html
+          catImage.attr("src", imageUrl);
+          catImage.attr("alt", "cat image");
 
-        //
-        $("#images").prepend(catImage);
-      });
+          // adds a cat image in front of previous cat images
+          $("#images").prepend(catImage);
+        });
     });
   </script>
 </body>

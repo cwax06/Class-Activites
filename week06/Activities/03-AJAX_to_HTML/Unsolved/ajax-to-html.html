@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Favorite Movies</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
 </head>
 
 <body>
@@ -43,12 +44,16 @@
   <script type="text/javascript">
     // The below code fills in the first row of the table
     var type = "mr+nobody";
+    var other = "Seinfeld";
+    var last = "big"
     var queryURL = "https://www.omdbapi.com/?t=" + type + "&y=&plot=short&apikey=40e9cece";
-
+    var otherURL = "https://www.omdbapi.com/?t=" + other + "&y=&plot=short&apikey=40e9cece";
+    var lastURL = "https://www.omdbapi.com/?t=" + last + "&y=&plot=short&apikey=40e9cece";
     $.ajax({
       url: queryURL,
       method: "GET"
-    }).done(function(response) {
+    }).done(function (response) {
+      console.log(response)
 
       // Getting the first row of the table
       var firstRowTds = $("table")
@@ -68,9 +73,49 @@
 
     // Step 2: copy the above and try and figure out what to change to fill in the
     // second row.
+    $.ajax({
+      url: otherURL,
+      method: "GET"
+    }).done(function (response) {
+      console.log(response)
 
+      var secondRowTds = $("table")
+        .children()
+        .eq(1)
+        .children("tr")
+        .eq(1)
+        .children("td");
+
+      // Setting the inner text of each td in the second row
+      secondRowTds.eq(0).text(response.Title);
+
+      secondRowTds.eq(1).text(response.Year);
+
+      secondRowTds.eq(2).text(response.Actors);
+    });
 
     // Step 3: using the same logic, fill in the third row
+
+    $.ajax({
+      url: lastURL,
+      method: "GET"
+    }).done(function (response) {
+      console.log(response)
+
+      var thirdRowTds = $("table")
+        .children()
+        .eq(1)
+        .children("tr")
+        .eq(2)
+        .children("td");
+
+      // Setting the inner text of each td in the second row
+      thirdRowTds.eq(0).text(response.Title);
+
+      thirdRowTds.eq(1).text(response.Year);
+
+      thirdRowTds.eq(2).text(response.Actors);
+    });
   </script>
 </body>
 

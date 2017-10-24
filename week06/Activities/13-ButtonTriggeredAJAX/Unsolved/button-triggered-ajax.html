@@ -12,8 +12,7 @@
       I'll be back
     </button>
     <button data-person="michael j fox">
-      My happiness grows in direct proportion to my acceptance,
-      and in inverse proportion to my expectations.
+      My happiness grows in direct proportion to my acceptance, and in inverse proportion to my expectations.
     </button>
 
     <!-- STEP ONE: Open this file in the browser and click on the buttons. Watch what happens -->
@@ -25,7 +24,18 @@
 
     <!-- **************************************** -->
 
-    <!-- YOUR BUTTONS GO HERE!!!!!! Obviously delete this text after you put them between the dashed lines here.  -->
+    <button data-person="jerry seinfeld">
+      But I don't want to be a pirate
+    </button>
+    <button data-person="jim carrey">
+      In case I don't see ya, Good Afternoon, Good Evening and Goodnight
+    </button>
+    <button data-person="job bluthe">
+      I've made a huge mistake
+    </button>
+    <button data-person="tobias funke">
+      Is there a little girl here all by herself?!
+    </button>
 
     <!-- **************************************** -->
 
@@ -41,16 +51,23 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $("button").on("click", function() {
+    // Event listener for all button elements
+    $("button").on("click", function () {
+      // In this case, the "this" keyword refers to the button that was clicked
       var person = $(this).attr("data-person");
+
+      // Constructing a URL to search Giphy for the name of the person who said the quote
       var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
         person + "&api_key=dc6zaTOxFJmzC&limit=10";
 
+      // Performing our AJAX GET request
       $.ajax({
-          url: queryURL,
-          method: "GET"
-        })
-        .done(function(response) {
+        url: queryURL,
+        method: "GET"
+      })
+        // After the data comes back from the API
+        .done(function (response) {
+          // Storing an array of results in the results variable
           var results = response.data;
 
           for (var i = 0; i < results.length; i++) {
