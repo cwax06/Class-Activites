@@ -7,7 +7,8 @@
   <title>Sign-Up Today!</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
 
 </head>
 
@@ -84,28 +85,55 @@
   <script>
     //  START CODING BELOW!!
 
+    var config = {
+      apiKey: "AIzaSyBWqJDve9kS0OGAGMQkOKPHGnSKiCzpjMU",
+      authDomain: "my-attempt-of-a-project.firebaseapp.com",
+      databaseURL: "https://my-attempt-of-a-project.firebaseio.com",
+      projectId: "my-attempt-of-a-project",
+      storageBucket: "my-attempt-of-a-project.appspot.com",
+      messagingSenderId: "474869829348"
+    };
+
     // Initialize Firebase
 
+    firebase.initializeApp(config);
 
     // Create a variable to reference the database
 
+    var database = firebase.database();
+
+    var userRef = database
 
     // Capture Button Click
-    $("#add-user").on("click", function() {
+    $("#add-user").on("click", function () {
       // Don't refresh the page!
       event.preventDefault();
 
       // YOUR TASK!!!
 
       // Code in the logic for storing and retrieving the most recent user.
-
+      var name = $("#name-input").val();
+      var age = $("#age-input").val();
+      var phone = $("phone-input").val();
       // Don't forget to handle the "initial load"
+
+      var data = {
+        name: name,
+        age: age,
+        email: email,
+        comment: comment
+      };
+
+      userRef.set(data);
 
     });
 
 
     // Create Firebase "watcher" Hint: .on("value")
-
+    userRef.on("value", function (snapshot) { }, function (error) {
+      console.log(snapshot);
+      console.log(error);
+    })
 
     // Create Error Handling
   </script>
