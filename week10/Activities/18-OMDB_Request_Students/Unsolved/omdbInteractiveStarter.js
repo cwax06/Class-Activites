@@ -12,7 +12,7 @@
 
 
 // Grab or assemble the movie name and store it in a variable called "movieName"
-var movieName = "";
+var movieName = process.argv[2];
 // ...
 
 
@@ -26,6 +26,8 @@ console.log(queryUrl);
 
 // Then create a request to the queryUrl
 // ...
+
+
 
   // If the request is successful
   // ...
