@@ -16,6 +16,16 @@
 
 // Take in the command line arguments
 
+var geocoder = require('geocoder');
+
+var location = process.argv[2]
+
+geocoder.geocode(location, function (err, data) {
+    if (!err) {
+        var infoString = JSON.stringify(data);
+        console.log(infoString);
+    }
+});
 
 
 
@@ -24,4 +34,6 @@
 
 
 
+
 // Then use Geocoder NPM to geocode the address
+

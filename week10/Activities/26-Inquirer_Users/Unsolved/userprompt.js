@@ -14,3 +14,49 @@
 // Remember to be creative!
 
 // ========================================================================
+
+var inquirer = require("inquirer");
+
+// var questions = ["What is your name", "What is your quest", "What is your favorite color"]
+
+inquirer
+    .prompt([
+        // Here we create a basic text prompt.
+        {
+            type: "input",
+            message: "What is your name?",
+            name: "username"
+        },
+        {
+            type: "password",
+            message: "Set your password",
+            name: "password",
+        },
+        {
+            type: "list",
+            message: "What is your quest?",
+            choices: ["I seek the Holy Grail", "Johnny", "Request what"],
+            name: "quest"
+        },
+        {
+            type: "checkbox",
+            message: "What is your favotire Color?",
+            choices: ["blue", "yellow", "green", "green"]
+        },
+        {
+            type: "confirm",
+            message: "Are you sure?",
+            name: "confirm",
+            default: true
+        }
+    ])
+    .then(function (inquirerResponse) {
+        if (inquirerReponse.confirm) {
+            console.log("/Welcome " + inquirerResponse.username);
+            console.log("Your " + inquirerResponse.username + " the brave!\n");
+            console.log("Your answer: " + inquirerResponse.quest)
+        }
+        else {
+            console.log("Your " + inquirerResponse.username + " bravely ran away!\n");
+        }
+    });
