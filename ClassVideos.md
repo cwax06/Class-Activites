@@ -184,6 +184,21 @@ Thu, Nov 23 2017: T-Th *happy thanksgiving!*
 ## Day 3
 Sat, Nov 25 2017: Sa *no class*
 
+
+# Week 12: Intro to MySQL
+## Day 1
+Mon, Nov 27 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55c91619-f2b5-4828-ae61-d3fa055cec77)
+<!-- 
+Tue, Nov 28 2017: T-Th *missing link!*
+
+## Day 2
+Wed, Nov 29 2017: M-W *missing link!*
+
+Thu, Nov 30 2017: T-Th *missing link!*
+
+## Day 3
+Sat, Dec 1 2017: Sa *missing link!* -->
+
 <!-- 
 # Week 12:  
 ## Day 1
