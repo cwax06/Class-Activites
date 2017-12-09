@@ -6,14 +6,14 @@ This week, students will learn how to set up web servers with Node.js and how ex
 
 ### Homework Activities
 
-* [FriendFinder](../../../01-Class-Content/13-express/02-Homework/Instructions/homework_instructions.md)
+* [FriendFinder](../homework/13-express/02-Homework/Instructions/homework_instructions.md)
 
 ### Key Activities
 
-* [First Server](../../../01-Class-Content/13-express/01-Activities/01-FirstServer)
-* [Star Wars Build Up](../../../01-Class-Content/13-express/01-Activities/08-StarWars-1)
-* [Star Wars Finalized](../../../01-Class-Content/13-express/01-Activities/14-FinalStarwarsApp)
-* [Hot Restaurant](../../../01-Class-Content/13-express/01-Activities/16-HotRestaurant)
+* [First Server](Activities/01-FirstServer)
+* [Star Wars Build Up](Activities/08-StarWars-1)
+* [Star Wars Finalized](Activities/14-FinalStarwarsApp)
+* [Hot Restaurant](Activities/16-HotRestaurant)
 
 ### Helpful Links
 

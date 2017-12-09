@@ -1,11 +1,6 @@
 ## Unit 13 (Intro to Express) - Complete video guide
 
-### Last week's homework
 
-#### Homework #12 - Bamazon
-
-Today we make a basic Amazon-like application for customers using Node, Inquirer, and MySQL!
-[Watch the Video!](https://www.youtube.com/watch?v=oouxVn14qyk)
 
 ### Key activities from the week
 
