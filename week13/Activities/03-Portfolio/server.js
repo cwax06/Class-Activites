@@ -1,11 +1,12 @@
 var http = require("http");
+var http = requre("fs");
 
 var PORT = 8080;
 
 var server = http.createServer(handleRequest);
 
 // Start our server
-server.listen(PORT, function() {
+server.listen(PORT, function () {
   // Callback triggered when server is successfully listening. Hurray!
   console.log("Server listening on: http://localhost:" + PORT);
 });
@@ -27,6 +28,15 @@ function handleRequest(req, res) {
 
     default:
       return display404(path, req, res);
+
+    case "/foods":
+      return displayFoods(path, req, res);
+
+    case "/movies":
+      return displayMovies(path, req, res);
+
+    case "/CSS":
+      return displayCSS(path, req, res);
   }
 }
 
@@ -54,11 +64,41 @@ function displayPortfolio(url, req, res) {
 
 // When someone visits any path that is not specifically defined, this function is run.
 function display404(url, req, res) {
-  var myHTML =  "<html>" +
+  var myHTML = "<html>" +
     "<body><h1>404 Not Found </h1>" +
     "<p>The page you were looking for: " + url + " can not be found</p>" +
     "</body></html>";
 
   res.writeHead(404, { "Content-Type": "text/html" });
+  res.end(myHTML);
+}
+
+function displayFoods(url, req, res) {
+  var myHTML = "<html>" +
+    "<body><h1>My Favorite Foods</h1>" +
+    "<a href='/'>Go Home</a>" +
+    "</body></html>";
+
+  res.writeHead(200, { "Content-Type": "text/html" });
+  res.end(myHTML);
+}
+
+function displayMovies(url, req, res) {
+  var myHTML = "<html>" +
+    "<body><h1>My Favorite Movies</h1>" +
+    "<a href='/'>Go Home</a>" +
+    "</body></html>";
+
+  res.writeHead(200, { "Content-Type": "text/html" });
+  res.end(myHTML);
+}
+
+function displayCSS(url, req, res) {
+  var myHTML = "<html>" +
+    "<body><h1>404; though the page is good</h1>" +
+    "<a href='/'>Go Home</a>" +
+    "</body></html>";
+
+  res.writeHead(200, { "Content-Type": "text/html" });
   res.end(myHTML);
 }
