@@ -7,12 +7,16 @@ var app = express();
 // Routes
 // What routes do you need to have? Which ones are optional?
 // TODO Add your routes here
-app.get("", function(req, res) {
-
+app.get("/:operation/:firstNum/:secondNum", function(req, res) {
   // TODO parse out the variables from the request
   // Parameters are received from the URL
+  var operation = req.params.operation;
+
   // TODO make sure they're converted to integers (and not strings)
   // Parameters are converted to integers
+  var firstNum = parseInt(req.params.firstNum);
+  var secondNum = parseInt(req.params.secondNum);
+  var result;
 
   // Initialize the result variable to send later
   var result;
@@ -20,16 +24,21 @@ app.get("", function(req, res) {
   switch (operation) {
     // BONUS - How could you use * + etc. inside the app.get()?
     case "add":
+      result = firstNum + secondNum;
       // Add your logic here. Pun intended.
       break;
     case "subtract":
       // Subtract logic
+      result = firstNum - secondNum;
       break;
+
     case "multiply":
       // Multiply
+      result = firstNum * secondNum;
       break;
     case "divide":
       // Divide
+      result = firstNum / secondNum;
       break;
     default:
       // Handle anything that isn't specified
@@ -39,8 +48,9 @@ app.get("", function(req, res) {
 
   // We return the result back to the user in the form of a string
   res.send(result.toString());
-
 });
 
 // Initiate the listener.
-app.listen(3002);
+app.listen(3002, function() {
+  console.log("System Ready:");
+});
