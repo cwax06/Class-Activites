@@ -7,7 +7,7 @@
 ## Day 1
 Mon, Sep 11 2017: M-W *unavailable*
 
-Tue, Sep 12 2017: T-Th 
+Tue, Sep 12 2017: T-Th
 [Video 1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e9a30c5d-ee49-4eb9-a18c-2785d1bc3591) /
 [Video 2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6dc4455-45ea-4aa3-b018-7202f96b4287)
 
@@ -159,7 +159,7 @@ Wed, Nov 15 2017: M-W *missing link!*
 Thu, Nov 16 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=08028d00-7bd9-4248-84a4-8ca0a32eaf89)
 
 ## Day 3
-Sat, Nov 18 2017: Sa 
+Sat, Nov 18 2017: Sa
 [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0abbcadc-e1d6-4840-851d-d12fa11c68c2)
 
 [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=edfe471b-0846-4a2a-a26e-59a473c61d1d)
@@ -171,45 +171,60 @@ Mon, Nov 20 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/
 Tue, Nov 21 2017: T-Th *missing link!*
 
 ## Day 2
-Wed, Nov 22 2017: M-W *no class*
+Mon, Nov 27 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55c91619-f2b5-4828-ae61-d3fa055cec77)
 
-Thu, Nov 23 2017: T-Th *happy thanksgiving!*
-```
-       .---. /)
-     .'     `\/)
-    /  _   .'`/|
- ,=(  __\ (__/_/==,
-`==================`
-```
+Tue, Nov 28 2017: T-Th *missing link!*
+
 ## Day 3
-Sat, Nov 25 2017: Sa *no class*
+Wed, Nov 29 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=71fd0966-0fdc-4ce1-be07-bf457f544581)
+
+Thu, Nov 30 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58e602e9-3307-40a6-b308-ad65179f5c06)
 
 
 # Week 12: Intro to MySQL
 ## Day 1
-Mon, Nov 27 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55c91619-f2b5-4828-ae61-d3fa055cec77)
-<!-- 
-Tue, Nov 28 2017: T-Th *missing link!*
+Sat, Dec 2 2017: Sa [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8a8b1c-f9ac-4fe0-9095-ab6973477903) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34aa9260-f611-409d-9cb7-f0d3a11792d7)
 
 ## Day 2
-Wed, Nov 29 2017: M-W *missing link!*
+Mon, Dec 4 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d96ccfad-0357-4abd-8abe-21d6a767c1c1) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a3e867c5-b2b6-4475-99d4-f14bcbb978e6)
 
-Thu, Nov 30 2017: T-Th *missing link!*
+Tue, Dec 5 2017: T-Th [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63d5f749-b694-4558-a222-dd5ae9ca7ba2) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90dd812a-6602-4c3e-a7ca-d33f8d09b48d)
 
 ## Day 3
-Sat, Dec 1 2017: Sa *missing link!* -->
+Wed, Dec 6 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36d10409-dfab-4c9d-b5d9-d193df3ffc28) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=672bd885-9b45-4ae0-8142-4ce1abdae6de)
 
-<!-- 
-# Week 12:  
+Thu, Dec 7 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0dfb3928-c096-49f0-a6ee-54b055764aa9)
+
+
+# Week 13: Intro to Express
 ## Day 1
-Mon, Nov 27 2017: M-W *missing link!*
-
-Tue, Nov 28 2017: T-Th *missing link!*
+Sat, Dec 9 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c42e3750-dd6c-42e9-92a7-582ca8cd5067)
 
 ## Day 2
-Wed, Nov 29 2017: M-W *missing link!*
+Mon, Dec 11 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b0e8a8e9-a987-45b4-bfd2-136ca8202af2)
 
-Thu, Nov 30 2017: T-Th *missing link!*
+Tue, Dec 12 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3320c84-357b-4367-b9b7-0e1c2ffeabcd)
 
 ## Day 3
-Sat, Dec 1 2017: Sa *missing link!* -->
+Wed, Dec 13 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a6716e35-7838-4ec6-87c5-264ac679375d) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e609244b-52ae-428a-a774-3e67e2cf21c0)
+
+Thu, Dec 14 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff14cc6d-a817-4faf-ba9b-e6af9423e206)
+
+# Week 14: Node, Express, and Handlebars
+## Day 1
+Sat, Dec 16 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28e4f59e-89eb-44c7-bc08-e00dcf0c47d8)
+<!--
+## Day 2
+Mon, Dec 18 2017: M-W *missing link!*
+
+Tue, Dec 19 2017: T-Th *missing link!*
+
+## Day 3
+Wed, Dec 20 2017: M-W *missing link!*
+
+Thu, Dec 21 2017: T-Th *missing link!*
+
+
+
+
+-->
