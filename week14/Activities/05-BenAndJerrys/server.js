@@ -22,11 +22,11 @@ var icecreams = [
 ];
 
 // Routes
-app.get("/weekday", function(req, res) {
+app.get("/icecreams", function(req, res) {
   res.render("index", icecreams[0]);
 });
 
-app.get("/weekend", function(req, res) {
+app.get("/icecream:/name", function(req, res) {
   res.render("index", icecreams[1]);
 });
 
