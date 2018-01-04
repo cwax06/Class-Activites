@@ -31,7 +31,6 @@ connection.connect(function(err) {
   console.log("connected as id " + connection.threadId);
 });
 
-
 // Use Handlebars to render the main index.html page with the todos in it.
 app.get("/", function(req, res) {
   connection.query("SELECT * FROM plans;", function(err, data) {
@@ -42,7 +41,6 @@ app.get("/", function(req, res) {
     res.render("index", { plans: data });
   });
 });
-
 
 // Create a new todo
 app.post("/todos", function(req, res) {
@@ -57,7 +55,6 @@ app.post("/todos", function(req, res) {
   });
 });
 
-
 // Retrieve all todos
 app.get("/todos", function(req, res) {
   connection.query("SELECT * FROM plans;", function(err, data) {
@@ -69,22 +66,21 @@ app.get("/todos", function(req, res) {
   });
 });
 
-
 // Update a todo
 app.put("/todos/:id", function(req, res) {
   connection.query("UPDATE plans SET plan = ? WHERE id = ?", [req.body.plan, req.params.id], function(err, result) {
     if (err) {
       // If an error occurred, send a generic server faliure
       return res.status(500).end();
-    } else if (result.changedRows == 0) {
+    }
+    else if (result.changedRows === 0) {
       // If no rows were changed, then the ID must not exist, so 404
       return res.status(404).end();
-    } else {
-      res.status(200).end();
     }
+    res.status(200).end();
+
   });
 });
-
 
 // Delete a todo
 app.delete("/todos/:id", function(req, res) {
@@ -92,15 +88,15 @@ app.delete("/todos/:id", function(req, res) {
     if (err) {
       // If an error occurred, send a generic server faliure
       return res.status(500).end();
-    } else if (result.affectedRows == 0) {
+    }
+    else if (result.affectedRows === 0) {
       // If no rows were changed, then the ID must not exist, so 404
       return res.status(404).end();
-    } else {
-      res.status(200).end();
     }
+    res.status(200).end();
+
   });
 });
-
 
 app.listen(port, function() {
   console.log("listening on port", port);
