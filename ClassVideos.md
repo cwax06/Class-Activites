@@ -213,16 +213,62 @@ Thu, Dec 14 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Page
 # Week 14: Node, Express, and Handlebars
 ## Day 1
 Sat, Dec 16 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28e4f59e-89eb-44c7-bc08-e00dcf0c47d8)
-<!--
 ## Day 2
-Mon, Dec 18 2017: M-W *missing link!*
+Mon, Dec 18 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44145c2d-e410-4953-8e82-5b5ac8a4b776)
 
 Tue, Dec 19 2017: T-Th *missing link!*
 
 ## Day 3
-Wed, Dec 20 2017: M-W *missing link!*
+Wed, Dec 20 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9027187-7004-421c-b864-9bf965c27ec7)
 
-Thu, Dec 21 2017: T-Th *missing link!*
+Thu, Dec 21 2017: T-Th *missing link*
+
+# Week 15: Sequelized
+## Day 1
+Wed, Jan 3 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ba1fdf76-a86a-488d-82e3-a85e001714e1)
+
+Thu, Jan 4 2017: T-Th
+[1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6252dbda-d0bd-4047-afa8-a85f0019af7f)
+[2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab84ce1-7335-4b52-95e2-a85f002205d6)
+[3] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f649a9c-7271-49b3-9220-a85f00474bf1)
+
+## Day 2
+Sat, Jan 6 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57b45d77-9012-46ed-bb4a-a86001065fda)
+
+## Day 3
+Mon, Jan 8 2017: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7632646-fa6d-4f17-8cf1-a8630017c13a)
+[2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c6b3566-705a-4e09-8003-a86300198909)
+
+Tue, Jan 9 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2a4cdeda-1140-4646-87a1-a8640019e5e5)
+
+# Week 16: Introduction to Testing
+## Day 1
+Wed, Jan 10 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e23305f-fbfb-4005-a9c6-a8650017b360)
+<!--
+
+Thu, Jan 11 2017: T-Th *missing link!*
+
+## Day 2
+Sat, Jan 13 2017: Sa *missing link!*
+
+## Day 3
+Wed, Jan 17 2017: M-W *missing link!*
+
+Thu, Jan 18 2017: T-Th *missing link!*
+
+# Week 17:
+## Day 1
+Sat, Jan 20 2017: Sa *missing link!*
+
+## Day 2
+Mon, Jan 22 2017: M-W *missing link!*
+
+Tue, Jan 23 2017: T-Th *missing link!*
+
+## Day 3
+Wed, Jan 17 2017: M-W *missing link!*
+
+Thu, Jan 18 2017: T-Th *missing link!*
 
 
 

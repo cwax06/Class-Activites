@@ -75,7 +75,7 @@ $(document).ready(function() {
       url: "/api/posts",
       data: post
     })
-    .done(function() {
+    .then(function() {
       window.location.href = "/blog";
     });
   }
