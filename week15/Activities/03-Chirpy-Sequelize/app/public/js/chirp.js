@@ -16,7 +16,7 @@ $("#chirp-submit").on("click", function(event) {
   // Send an AJAX POST-request with jQuery
   $.post("/api/new", newChirp)
     // On success, run the following code
-    .done(function() {
+    .then(function() {
 
       var row = $("<div>");
       row.addClass("chirp");
