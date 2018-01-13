@@ -56,6 +56,7 @@ app.get("/:id", function(req, res) {
   });
 });
 
+<<<<<<< HEAD
 app.get("/api/quotes/:id", function(req, res) {
   connection.query("SELECT * FROM quotes where id = ?", [req.params.id], function(err, data) {
     if (err) {
@@ -69,6 +70,13 @@ app.post("/api/quotes", function(req, res) {
   connection.query("INSERT INTO quotes (author, quote) VALUES (?, ?)", [
     req.body.author, req.body.quote
   ], function(err, result) {
+=======
+app.post("/api/quotes", function(req, res) {
+  connection.query("INSERT INTO quotes (author, quote) VALUES (?, ?)", [req.body.author, req.body.quote], function(
+    err,
+    result
+  ) {
+>>>>>>> 2346b0fac3cbcbc6f7d49f61c92c69c4a7d9a6a3
     if (err) {
       // If an error occurred, send a generic server faliure
       return res.status(500).end();
@@ -84,6 +92,7 @@ app.delete("/api/quotes/:id", function(req, res) {
     if (err) {
       // If an error occurred, send a generic server faliure
       return res.status(500).end();
+<<<<<<< HEAD
     } else if (result.affectedRows == 0) {
       // If no rows were changed, then the ID must not exist, so 404
       return res.status(404).end();
@@ -109,6 +118,36 @@ app.put("/api/quotes/:id", function(req, res) {
       res.status(200).end();
     }
   });
+=======
+    }
+    else if (result.affectedRows === 0) {
+      // If no rows were changed, then the ID must not exist, so 404
+      return res.status(404).end();
+    }
+    res.status(200).end();
+
+  });
+});
+
+// Update a quote by an id and then redirect to the root route.
+app.put("/api/quotes/:id", function(req, res) {
+  connection.query(
+    "UPDATE quotes SET author = ?, quote = ? WHERE id = ?",
+    [req.body.author, req.body.quote, req.params.id],
+    function(err, result) {
+      if (err) {
+        // If an error occurred, send a generic server faliure
+        return res.status(500).end();
+      }
+      else if (result.changedRows === 0) {
+        // If no rows were changed, then the ID must not exist, so 404
+        return res.status(404).end();
+      }
+      res.status(200).end();
+
+    }
+  );
+>>>>>>> 2346b0fac3cbcbc6f7d49f61c92c69c4a7d9a6a3
 });
 
 app.listen(port, function() {
