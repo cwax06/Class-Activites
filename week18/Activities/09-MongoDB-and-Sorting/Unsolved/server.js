@@ -33,8 +33,7 @@ app.get("/all", function(req, res) {
     // Log any errors if the server encounters one
     if (err) {
       console.log(err);
-    }
-    else {
+    } else {
       // Otherwise, send the result of this query to the browser
       res.json(data);
     }
@@ -44,6 +43,19 @@ app.get("/all", function(req, res) {
 // TODO: Implement the remaining two routes
 
 // 3: Name: Send JSON response sorted by name in ascending order, e.g. GET "/name"
+
+app.get("/sorted", function(req, res) {
+  // Query: In our database, go to the animals collection, then "find" everything
+  db.animals.find({}).sort({ name: 1 }, function(err, data) {
+    // Log any errors if the server encounters one
+    if (err) {
+      console.log(err);
+    } else {
+      // Otherwise, send the result of this query to the browser
+      res.json(data);
+    }
+  });
+});
 
 // 4: Weight: Send JSON response sorted by weight in descending order, , e.g. GET "/weight"
 
