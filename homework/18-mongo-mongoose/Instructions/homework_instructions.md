@@ -43,10 +43,17 @@ In this assignment, you'll create a web app that lets users view and leave comme
 14. When you’re ready to connect Mongoose with your remote database, you'll need to add it as an [environment variable on Heroku](https://devcenter.heroku.com/articles/config-vars)
 
     * As a reminder, you can check for the environment variable and fall back to a local mongo server:
-    ```
-    // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database    
-    `var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";`
-    ```
+```js
+// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+
+// Set mongoose to leverage built in JavaScript ES6 Promises
+// Connect to the Mongo DB
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI, {
+  useMongoClient: true
+});
+```
 
     * Then, just pass the `MONGODB_URI` variable to `mongoose.connect`. If you define `MONGODB_URI` on heroku, your production app will automatically use the remote database
 
