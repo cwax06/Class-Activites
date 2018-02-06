@@ -39,3 +39,7 @@ const star = [
 ];
 
 // Add code to individually export each sprite array as a named export
+
+export star;
+export happyFace;
+export stickFigure;
