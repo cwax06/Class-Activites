@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+// By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/week18Populater", {
@@ -41,7 +41,7 @@ app.get("/scrape", function(req, res) {
   axios.get("http://www.echojs.com/").then(function(response) {
     // Then, we load that into cheerio and save it to $ for a shorthand selector
     var $ = cheerio.load(response.data);
-    
+
     // Now, we grab every h2 within an article tag, and do the following:
     $("article h2").each(function(i, element) {
       // Save an empty result object
@@ -56,8 +56,7 @@ app.get("/scrape", function(req, res) {
         .attr("href");
 
       // Create a new Article using the `result` object built from scraping
-      db.Article
-        .create(result)
+      db.Article.create(result)
         .then(function(dbArticle) {
           // View the added result in the console
           console.log(dbArticle);

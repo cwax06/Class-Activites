@@ -4,7 +4,7 @@ var mongoose = require("mongoose");
 // Requiring the `Example` model for accessing the `examples` collection
 var Example = require("./exampleModel.js");
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+// By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/schemaexample", {
@@ -15,7 +15,8 @@ mongoose.connect("mongodb://localhost/schemaexample", {
 var data = {
   array: ["item1", "item2", "item3"],
   boolean: false,
-  string: "\"Don't worry if it doesn't work right. If everything did, you'd be out of a job\" - Mosher's Law of Software Engineering",
+  string:
+    "\"Don't worry if it doesn't work right. If everything did, you'd be out of a job\" - Mosher's Law of Software Engineering",
   number: 42
 };
 

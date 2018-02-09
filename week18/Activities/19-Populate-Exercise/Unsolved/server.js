@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+// By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/populatedb", {
@@ -29,8 +29,7 @@ mongoose.connect("mongodb://localhost/populatedb", {
 
 // When the server starts, create and save a new User document to the db
 // The "unique" rule in the User model's schema will prevent duplicate users from being added to the server
-db.User
-  .create({ name: "Ernest Hemingway" })
+db.User.create({ name: "Ernest Hemingway" })
   .then(function(dbUser) {
     console.log(dbUser);
   })
@@ -43,8 +42,7 @@ db.User
 // Route for retrieving all Notes from the db
 app.get("/notes", function(req, res) {
   // Find all Notes
-  db.Note
-    .find({})
+  db.Note.find({})
     .then(function(dbNote) {
       // If all Notes are successfully found, send them back to the client
       res.json(dbNote);
@@ -58,8 +56,7 @@ app.get("/notes", function(req, res) {
 // Route for retrieving all Users from the db
 app.get("/user", function(req, res) {
   // Find all Users
-  db.User
-    .find({})
+  db.User.find({})
     .then(function(dbUser) {
       // If all Users are successfully found, send them back to the client
       res.json(dbUser);
@@ -73,8 +70,7 @@ app.get("/user", function(req, res) {
 // Route for saving a new Note to the db and associating it with a User
 app.post("/submit", function(req, res) {
   // Create a new Note in the db
-  db.Note
-    .create(req.body)
+  db.Note.create(req.body)
     .then(function(dbNote) {
       // If a Note was created successfully, find one User (there's only one) and push the new Note's _id to the User's `notes` array
       // { new: true } tells the query that we want it to return the updated User -- it returns the original by default
