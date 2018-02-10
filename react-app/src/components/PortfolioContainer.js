@@ -14,18 +14,6 @@ class PortfolioContainer extends Component {
     this.setState({ currentPage: page });
   };
 
-  renderPage = () => {
-    if (this.state.currentPage === "Home") {
-      return <Home />;
-    } else if (this.state.currentPage === "About") {
-      return <About />;
-    } else if (this.state.currentPage === "Contact") {
-      return <Contact />;
-    } else if (this.state.currentPage === "Blog") {
-      return <Blog />;
-    }
-  };
-
   render() {
     return (
       <div>
