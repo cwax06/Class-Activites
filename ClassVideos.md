@@ -171,106 +171,148 @@ Mon, Nov 20 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/
 Tue, Nov 21 2017: T-Th *missing link!*
 
 ## Day 2
-Mon, Nov 27 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55c91619-f2b5-4828-ae61-d3fa055cec77)
+Mon, Nov 27 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=55c91619-f2b5-4828-ae61-d3fa055cec77)
 
 Tue, Nov 28 2017: T-Th *missing link!*
 
 ## Day 3
-Wed, Nov 29 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=71fd0966-0fdc-4ce1-be07-bf457f544581)
+Wed, Nov 29 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=71fd0966-0fdc-4ce1-be07-bf457f544581)
 
-Thu, Nov 30 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58e602e9-3307-40a6-b308-ad65179f5c06)
+Thu, Nov 30 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58e602e9-3307-40a6-b308-ad65179f5c06)
 
 
 # Week 12: Intro to MySQL
 ## Day 1
-Sat, Dec 2 2017: Sa [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8a8b1c-f9ac-4fe0-9095-ab6973477903) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34aa9260-f611-409d-9cb7-f0d3a11792d7)
+Sat, Dec 2 2017: Sa [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8a8b1c-f9ac-4fe0-9095-ab6973477903) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=34aa9260-f611-409d-9cb7-f0d3a11792d7)
 
 ## Day 2
-Mon, Dec 4 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d96ccfad-0357-4abd-8abe-21d6a767c1c1) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a3e867c5-b2b6-4475-99d4-f14bcbb978e6)
+Mon, Dec 4 2017: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d96ccfad-0357-4abd-8abe-21d6a767c1c1) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a3e867c5-b2b6-4475-99d4-f14bcbb978e6)
 
-Tue, Dec 5 2017: T-Th [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63d5f749-b694-4558-a222-dd5ae9ca7ba2) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90dd812a-6602-4c3e-a7ca-d33f8d09b48d)
+Tue, Dec 5 2017: T-Th [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63d5f749-b694-4558-a222-dd5ae9ca7ba2) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=90dd812a-6602-4c3e-a7ca-d33f8d09b48d)
 
 ## Day 3
-Wed, Dec 6 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36d10409-dfab-4c9d-b5d9-d193df3ffc28) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=672bd885-9b45-4ae0-8142-4ce1abdae6de)
+Wed, Dec 6 2017: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=36d10409-dfab-4c9d-b5d9-d193df3ffc28) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=672bd885-9b45-4ae0-8142-4ce1abdae6de)
 
-Thu, Dec 7 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0dfb3928-c096-49f0-a6ee-54b055764aa9)
+Thu, Dec 7 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0dfb3928-c096-49f0-a6ee-54b055764aa9)
 
 
 # Week 13: Intro to Express
 ## Day 1
-Sat, Dec 9 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c42e3750-dd6c-42e9-92a7-582ca8cd5067)
+Sat, Dec 9 2017: [Sa](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c42e3750-dd6c-42e9-92a7-582ca8cd5067)
 
 ## Day 2
-Mon, Dec 11 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b0e8a8e9-a987-45b4-bfd2-136ca8202af2)
+Mon, Dec 11 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b0e8a8e9-a987-45b4-bfd2-136ca8202af2)
 
-Tue, Dec 12 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3320c84-357b-4367-b9b7-0e1c2ffeabcd)
+Tue, Dec 12 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3320c84-357b-4367-b9b7-0e1c2ffeabcd)
 
 ## Day 3
-Wed, Dec 13 2017: M-W [1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a6716e35-7838-4ec6-87c5-264ac679375d) [2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e609244b-52ae-428a-a774-3e67e2cf21c0)
+Wed, Dec 13 2017: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a6716e35-7838-4ec6-87c5-264ac679375d) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e609244b-52ae-428a-a774-3e67e2cf21c0)
 
-Thu, Dec 14 2017: [T-Th] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff14cc6d-a817-4faf-ba9b-e6af9423e206)
+Thu, Dec 14 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ff14cc6d-a817-4faf-ba9b-e6af9423e206)
 
 # Week 14: Node, Express, and Handlebars
 ## Day 1
-Sat, Dec 16 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28e4f59e-89eb-44c7-bc08-e00dcf0c47d8)
+Sat, Dec 16 2017: [Sa](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=28e4f59e-89eb-44c7-bc08-e00dcf0c47d8)
 ## Day 2
 Mon, Dec 18 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=44145c2d-e410-4953-8e82-5b5ac8a4b776)
 
 Tue, Dec 19 2017: T-Th *missing link!*
 
 ## Day 3
-Wed, Dec 20 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9027187-7004-421c-b864-9bf965c27ec7)
+Wed, Dec 20 2017: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9027187-7004-421c-b864-9bf965c27ec7)
 
 Thu, Dec 21 2017: T-Th *missing link*
 
 # Week 15: Sequelized
 ## Day 1
-Wed, Jan 3 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ba1fdf76-a86a-488d-82e3-a85e001714e1)
+Wed, Jan 3 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ba1fdf76-a86a-488d-82e3-a85e001714e1)
 
-Thu, Jan 4 2017: T-Th
-[1] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6252dbda-d0bd-4047-afa8-a85f0019af7f)
-[2] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab84ce1-7335-4b52-95e2-a85f002205d6)
-[3] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f649a9c-7271-49b3-9220-a85f00474bf1)
+Thu, Jan 4 2018: T-Th
+[1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6252dbda-d0bd-4047-afa8-a85f0019af7f)
+[2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bab84ce1-7335-4b52-95e2-a85f002205d6)
+[3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f649a9c-7271-49b3-9220-a85f00474bf1)
 
 ## Day 2
-Sat, Jan 6 2017: [Sa] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57b45d77-9012-46ed-bb4a-a86001065fda)
+Sat, Jan 6 2018: [Sa](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57b45d77-9012-46ed-bb4a-a86001065fda)
 
 ## Day 3
-Mon, Jan 8 2017: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7632646-fa6d-4f17-8cf1-a8630017c13a)
+Mon, Jan 8 2018: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7632646-fa6d-4f17-8cf1-a8630017c13a)
 [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c6b3566-705a-4e09-8003-a86300198909)
 
-Tue, Jan 9 2017: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2a4cdeda-1140-4646-87a1-a8640019e5e5)
+Tue, Jan 9 2018: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2a4cdeda-1140-4646-87a1-a8640019e5e5)
 
 # Week 16: Introduction to Testing
 ## Day 1
-Wed, Jan 10 2017: [M-W] (https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e23305f-fbfb-4005-a9c6-a8650017b360)
+Wed, Jan 10 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e23305f-fbfb-4005-a9c6-a8650017b360)
+
+Thu, Jan 11 2018: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9794331-fdd1-47be-8ddc-a866002119d3)
+
+## Day 2
+Sat, Jan 13 2018: [Sa](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3c0f531f-9d7f-4bde-bd27-a867010a4af1)
+
+## Day 3
+Wed, Jan 17 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c019d23-5353-4569-a497-a86c0018b769)
+
+Thu, Jan 18 2018: [T-Th] *missing link!*
+
+# Week 17: Project 2
+## Day 1
+Sat, Jan 20 2018: Sa *no broadcast*
+
+## Day 2
+Mon, Jan 22 2018: M-W *no broadcast*
+
+Tue, Jan 23 2018: T-Th *no broadcast*
+
+## Day 3
+Wed, Jan 24 2018: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d2c1b6f1-aa30-4f33-a213-a8730019af76) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7d6e51ef-5d83-4eb9-91a4-a8730026562d)
+
+Thu, Jan 25 2018: T-Th *missing link!*
+
+# Week 18: Introduction to MongoDB
+## Day 1
+Sat, Jan 27 2018: Sa [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3e0f1a3-25d8-4a1a-b73b-a875010a7893) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a44db5d0-53b7-49ae-86cc-a875010c7272) [3](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ed9a002e-9e5a-4379-8d28-a875011a63fa) [4](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=70e37125-5e8d-46ea-938d-a875012f1762)
+
+## Day 2
+Mon, Jan 29 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a822fe34-5085-4313-b8f6-a8780017ffd3)
+
+Tue, Jan 30 2018: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0a8302d-1bba-4257-865e-a879001abca8)
+
+## Day 3
+Wed, Jan 31 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52844f1a-575d-4332-893b-a87a0019245f)
+
+Thu, Feb 1 2018: T-Th [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=48ed5399-2de8-4361-b45a-a87b001ccaf9) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=499bdb78-9d2c-4ec8-abcd-a87b003db7ea)
+
+# Week 19: Intro to ReactJS
+## Day 1
+Sat, Feb 3 2018: [Sa](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1882665-8e40-43ad-afc9-a87c0107b98a)
+
+## Day 2
+Mon, Feb 5 2018: M-W [1](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81328f54-1dcc-48b0-bbc8-a87f001934e8) [2](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6cf8181a-e659-4388-87bd-a87f003f6c29)
+
+Tue, Feb 6 2018: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1ca18a38-df68-4ba2-bade-a8800019c15a)
+
+## Day 3
+Wed, Feb 7 2018: [M-W](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6eae25c0-cb2b-4de9-9189-a8810018c62c)
+
+Thu, Feb 8 2018: [T-Th](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=190d9628-3f47-41b0-b216-a88200195b89)
+
+
+
 <!--
 
-Thu, Jan 11 2017: T-Th *missing link!*
-
-## Day 2
-Sat, Jan 13 2017: Sa *missing link!*
-
-## Day 3
-Wed, Jan 17 2017: M-W *missing link!*
-
-Thu, Jan 18 2017: T-Th *missing link!*
-
-# Week 17:
+# Week 20: React Continued
 ## Day 1
-Sat, Jan 20 2017: Sa *missing link!*
+Sat, Feb 10 2018: Sa *missing link*
 
 ## Day 2
-Mon, Jan 22 2017: M-W *missing link!*
+Mon, Feb 12 2018: M-W *missing link*
 
-Tue, Jan 23 2017: T-Th *missing link!*
+Tue, Feb 13 2018: T-Th *missing link*
 
 ## Day 3
-Wed, Jan 17 2017: M-W *missing link!*
+Wed, Feb 14 2018: M-W *missing link*
 
-Thu, Jan 18 2017: T-Th *missing link!*
-
-
-
+Thu, Feb 15 2018: T-Th *missing link*
 
 -->

@@ -27,7 +27,7 @@ request("http://www.awwwards.com/websites/clean/", function(error, response, htm
      *    The srcset value is used instead of src in this case because of how they're displaying the images
      *    Visit the website and inspect the DOM if there's any confusion
     */
-    var imgLink = $(element).find("a").find("img").attr("srcset").split(",")[0].split(" ")[0];
+    var imgLink = $(element).find("a").find("img").attr("data-srcset").split(",")[0].split(" ")[0];
 
     // Push the image's URL (saved to the imgLink var) into the results array
     results.push({ link: imgLink });

@@ -6,27 +6,27 @@ This week, we will introduce students to React, a declarative, efficient, and fl
 
 ### Homework Activities
 
-* [Homework Instructions](../../../01-Class-Content/20-react/02-Homework/Instructions/homework_instructions.md)
+* [Homework Instructions](../Homework/19-react/Instructions/homework_instructions.md)
 * [Working Demo of Homework](https://react-is-awesome.herokuapp.com/)
 
 ### Key Activities
 
-* [19.1 - Converting to ES6 Const/Let](../../../01-Class-Content/19-react/01-Activities/103-Stu_RedoWarmup)
-* [19.1 - New Array Methods](../../../01-Class-Content/19-react/01-Activities/106-Stu_Arrays)
-* [19.1 - Converting to Arrow Functions](../../../01-Class-Content/19-react/01-Activities/108-Stu_ArrowArrays)
-* [19.1 - Object Destructuring](../../../01-Class-Content/19-react/01-Activities/109-Stu_ObjDestruct)
-* [19.1 - Babel Setup](../../../01-Class-Content/19-react/01-Activities/110-Stu_BabelSetup)
-* [19.1 - ES2015 Modules](../../../01-Class-Content/19-react/01-Activities/112-Stu_ES2015Modules)
-* [19.1 - Constructors to Classes](../../../01-Class-Content/19-react/01-Activities/114-Stu_ConstructorsToClasses)
-* [19.2 - Documentation Questions](../../../01-Class-Content/19-react/01-Activities/01-Stu_DocumentationQuestions)
-* [19.2 - Hello React](../../../01-Class-Content/19-react/01-Activities/02-Stu_HelloReact)
-* [19.2 - Hello Bootstrap](../../../01-Class-Content/19-react/01-Activities/05-Stu_HelloBootstrap)
-* [19.2 - JSX Variables](../../../01-Class-Content/19-react/01-Activities/07-Stu_JSXVariables)
-* [19.3 - Calculator Props](../../../01-Class-Content/19-react/01-Activities/11-Stu_PropsCalculator)
-* [19.3 - Props Review](../../../01-Class-Content/19-react/01-Activities/12-Stu_PropsReview)
-* [19.3 - Component Map](../../../01-Class-Content/19-react/01-Activities/13-Stu_ComponentMap)
-* [19.3 - Decrement Counter](../../../01-Class-Content/19-react/01-Activities/15-Stu_DecrementCounter)
-* [19.3 - Friend Refactor](../../../01-Class-Content/19-react/01-Activities/16-Stu_FriendRefactor)
+* [19.1 - Converting to ES6 Const/Let](Activities/103-Stu_RedoWarmup)
+* [19.1 - New Array Methods](Activities/106-Stu_Arrays)
+* [19.1 - Converting to Arrow Functions](Activities/108-Stu_ArrowArrays)
+* [19.1 - Object Destructuring](Activities/109-Stu_ObjDestruct)
+* [19.1 - Babel Setup](Activities/110-Stu_BabelSetup)
+* [19.1 - ES2015 Modules](Activities/112-Stu_ES2015Modules)
+* [19.1 - Constructors to Classes](Activities/114-Stu_ConstructorsToClasses)
+* [19.2 - Documentation Questions](Activities/01-Stu_DocumentationQuestions)
+* [19.2 - Hello React](Activities/02-Stu_HelloReact)
+* [19.2 - Hello Bootstrap](Activities/05-Stu_HelloBootstrap)
+* [19.2 - JSX Variables](Activities/07-Stu_JSXVariables)
+* [19.3 - Calculator Props](Activities/11-Stu_PropsCalculator)
+* [19.3 - Props Review](Activities/12-Stu_PropsReview)
+* [19.3 - Component Map](Activities/13-Stu_ComponentMap)
+* [19.3 - Decrement Counter](Activities/15-Stu_DecrementCounter)
+* [19.3 - Friend Refactor](Activities/16-Stu_FriendRefactor)
 
 ### Helpful Links
 

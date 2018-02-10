@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
-// Set mongoose to leverage built in JavaScript ES6 Promises
+// By default mongoose uses callbacks for async queries, we're setting it to use promises (.then syntax) instead
 // Connect to the Mongo DB
 mongoose.Promise = Promise;
 mongoose.connect("mongodb://localhost/populate", {
@@ -29,8 +29,7 @@ mongoose.connect("mongodb://localhost/populate", {
 
 // When the server starts, create and save a new Library document to the db
 // The "unique" rule in the Library model's schema will prevent duplicate libraries from being added to the server
-db.Library
-  .create({ name: "Campus Library" })
+db.Library.create({ name: "Campus Library" })
   .then(function(dbLibrary) {
     // If saved successfully, print the new Library document to the console
     console.log(dbLibrary);
@@ -45,8 +44,7 @@ db.Library
 // POST route for saving a new Book to the db and associating it with a Library
 app.post("/submit", function(req, res) {
   // Create a new Book in the database
-  db.Book
-    .create(req.body)
+  db.Book.create(req.body)
     .then(function(dbBook) {
       // If a Book was created successfully, find one library (there's only one) and push the new Book's _id to the Library's `books` array
       // { new: true } tells the query that we want it to return the updated Library -- it returns the original by default
@@ -66,8 +64,7 @@ app.post("/submit", function(req, res) {
 // Route for getting all books from the db
 app.get("/books", function(req, res) {
   // Using our Book model, "find" every book in our db
-  db.Book
-    .find({})
+  db.Book.find({})
     .then(function(dbBook) {
       // If any Books are found, send them to the client
       res.json(dbBook);
@@ -81,8 +78,7 @@ app.get("/books", function(req, res) {
 // Route for getting all libraries from the db
 app.get("/library", function(req, res) {
   // Using our Library model, "find" every library in our db
-  db.Library
-    .find({})
+  db.Library.find({})
     .then(function(dbLibrary) {
       // If any Libraries are found, send them to the client
       res.json(dbLibrary);
@@ -96,8 +92,7 @@ app.get("/library", function(req, res) {
 // Route to see what library looks like WITH populating
 app.get("/populated", function(req, res) {
   // Using our Library model, "find" every library in our db and populate them with any associated books
-  db.Library
-    .find({})
+  db.Library.find({})
     // Specify that we want to populate the retrieved libraries with any associated books
     .populate("books")
     .then(function(dbLibrary) {
