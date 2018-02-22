@@ -16,7 +16,7 @@ This week's lesson introduces students to the basics of Python, and building MVC
 
 This week's homework assignment is to implement a CRUD application that allows users to save useful **code snippets**, along with a brief description of why they're useful; a **title**; and a list of **tags**.
 
-[Homework instructions are available here](../../../../01-Class-Content/21-regionalized-content/Django/02-Homework/README.md).
+[Homework instructions are available here](../../../homework/21-django/README.md).
 
 ### Helpful Links
 
