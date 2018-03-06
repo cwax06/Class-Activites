@@ -30,7 +30,6 @@ function swap(items, firstIndex, secondIndex) {
 }
 
 function selectionSort(items) {
-
   // FILL IN YOUR CODE HERE
   // Use the above swap function when you are ready to start swapping elements in the array.
 }
