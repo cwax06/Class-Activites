@@ -26,12 +26,19 @@
 ###############################################################################
 #...Your Code Here...
 
+example = input('Type: First Name, Last Name: ')
+
 # Once you've gotten all of that, print it all back to the screen. 
 ###############################################################################
 #...Your Code Here...
+
+print(example)
+
 
 # Then, use the same function you used to prompt users for information to ask 
 # them to confirm whether or not the information is correct. Save their 
 # response, but don't worry about doing anything with it yet!
 ###############################################################################
 # ...Your Code Here...
+
+print('is this correct? ')
